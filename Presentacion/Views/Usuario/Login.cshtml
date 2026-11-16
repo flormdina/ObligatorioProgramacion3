@@ -1,0 +1,35 @@
+﻿@model DTOs.DTOs.LoginDTO
+
+@{
+    ViewData["Title"] = "Login";
+}
+
+<section class="auth">
+    <div class="auth-hoja">
+        <h1>Bienvenido de vuelta</h1>
+        <p class="auth-sub">Ingresá para seguir con tus historias.</p>
+
+        @if (ViewBag.Error != null)
+        {
+            <div class="aviso-error" role="alert">@ViewBag.Error</div>
+        }
+
+        <form asp-action="Login" method="post">
+            <div class="campo">
+                <label asp-for="Email">Email</label>
+                <input asp-for="Email" type="email" autocomplete="email" placeholder="nombre@ejemplo.com" required />
+                <span asp-validation-for="Email"></span>
+            </div>
+
+            <div class="campo">
+                <label asp-for="Password">Contraseña</label>
+                <input asp-for="Password" type="password" autocomplete="current-password" required />
+                <span asp-validation-for="Password"></span>
+            </div>
+
+            <button type="submit" class="btn-aventura btn-bloque">Ingresar</button>
+        </form>
+
+        <p class="auth-pie">¿Todavía no tenés cuenta? <a asp-action="Create">Agregar usuario</a></p>
+    </div>
+</section>

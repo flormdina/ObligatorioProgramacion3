@@ -1,0 +1,42 @@
+@model IEnumerable<DTOs.RankingDTO>
+
+@{
+    ViewData["Title"] = "Ranking de lectores";
+}
+
+<h2>Ranking de lectores</h2>
+
+<p>Lectores ordenados por cantidad de historias diferentes completadas.</p>
+
+@if (!Model.Any())
+{
+    <p>Todavía no hay lectores con historias completadas.</p>
+}
+else
+{
+    <table class="table table-striped">
+        <thead>
+        <tr>
+            <th>Posición</th>
+            <th>Lector</th>
+            <th>Historias diferentes completadas</th>
+        </tr>
+        </thead>
+        <tbody>
+        @{
+            int posicion = 1;
+        }
+
+        @foreach (var lector in Model)
+        {
+            <tr>
+                <td>@posicion</td>
+                <td>@lector.Usuario</td>
+                <td>@lector.Cantidad</td>
+            </tr>
+
+            posicion++;
+        }
+        </tbody>
+    </table>
+}

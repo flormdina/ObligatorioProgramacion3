@@ -1,0 +1,16 @@
+# Archivos generados por .NET
+bin/
+obj/
+
+# Configuraciones de Rider
+.idea/
+*.sln.iml
+
+# Archivos de macOS
+.DS_Store
+
+# Configuraciones locales
+appsettings.Development.json
+.env
+.env.*
+.vs/

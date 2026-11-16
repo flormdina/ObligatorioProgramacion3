@@ -1,0 +1,45 @@
+@model IEnumerable<DTOs.DTOs.UsuarioDTO>
+
+@{
+    ViewData["Title"] = "Usuarios";
+}
+
+<h1>Usuarios</h1>
+
+<p>
+    <a asp-action="Create" asp-controller="Usuario" class="btn btn-primary">Registrar nuevo usuario</a>
+</p>
+
+@if (Model == null || !Model.Any())
+{
+    <div class="alert alert-info">No hay usuarios para mostrar.</div>
+}
+else
+{
+    <table class="table table-striped">
+        <thead>
+            <tr>
+                <th>Nombre</th>
+                <th>Email</th>
+                <th>Usuario</th>
+                <th>Rol</th>
+                <th></th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var usuario in Model)
+            {
+                <tr>
+                    <td>@usuario.NombreCompleto</td>
+                    <td>@usuario.Email</td>
+                    <td>@usuario.NombreUsuario</td>
+                    <td>@usuario.Rol</td>
+                    <td>
+                        <a asp-action="Edit" asp-route-id="@usuario.Id" class="btn btn-sm btn-secondary">Editar</a>
+                        <a asp-action="Delete" asp-route-id="@usuario.Id" class="btn btn-sm btn-danger ms-1">Eliminar</a>
+                    </td>
+                </tr>
+            }
+        </tbody>
+    </table>
+}

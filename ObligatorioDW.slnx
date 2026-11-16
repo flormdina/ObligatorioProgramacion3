@@ -1,0 +1,8 @@
+<Solution>
+  <Project Path="DTOs/DTOs.csproj" />
+  <Project Path="LogicaAccesoDato/LogicaAccesoDato.csproj" Id="55f97dd1-ed4b-4a99-a811-e8fa0310f94d" />
+  <Project Path="LogicaDeAplicacion/LogicaDeAplicacion.csproj" Id="12ee6af2-673d-44db-89dd-7c990b8141a2" />
+  <Project Path="ObligatorioDW/ObligatorioDW.csproj" />
+  <Project Path="Presentacion/Presentacion.csproj" Id="ca4d218b-f4b4-4d9c-8540-eb335bea6b8e" />
+  <Project Path="WebApi/WebApi.csproj" Id="bc60885d-2fe4-4c40-a478-b07b397e0b19" />
+</Solution>

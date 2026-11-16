@@ -1,0 +1,81 @@
+
+@using ObligatorioDW.Entidades
+
+@{
+    ViewData["Title"] = "Agregar capítulo";
+    var historia = (DTOs.DTOs.HistoriaDTO)ViewBag.Historia;
+}
+
+<h1>Agregar capítulo</h1>
+
+<h4>@historia.Titulo</h4>
+
+<div asp-validation-summary="All" class="text-danger"></div>
+
+<form asp-action="AgregarCapitulo"
+      asp-route-id="@historia.Id"
+      method="post">
+
+    <div class="mb-3">
+        <label class="form-label">Tipo de capítulo</label>
+
+        <select name="tipo" class="form-select" required>
+            <option value="Intermedio">Intermedio</option>
+            <option value="Final">Final</option>
+        </select>
+    </div>
+
+    <div class="mb-3">
+        <label class="form-label">Capítulo anterior</label>
+
+        <select name="capituloAnteriorId"
+                class="form-select" required>
+
+            @if (historia.CapituloInicial is CapituloIntermedio)
+            {
+                <option value="@historia.CapituloInicial.Id">
+                    @historia.CapituloInicial.Titulo (Inicial)
+                </option>
+            }
+
+            @foreach (var capitulo in historia.Capitulos)
+            {
+                if (capitulo is CapituloIntermedio &&
+                    capitulo.Id != historia.CapituloInicial.Id)
+                {
+                    <option value="@capitulo.Id">
+                        @capitulo.Titulo
+                    </option>
+                }
+            }
+        </select>
+    </div>
+
+    <div class="mb-3">
+        <label class="form-label">Título del capítulo</label>
+        <input name="titulo" class="form-control" required />
+    </div>
+
+    <div class="mb-3">
+        <label class="form-label">Texto del capítulo</label>
+        <textarea name="texto"
+                  class="form-control"
+                  rows="4" required></textarea>
+    </div>
+
+    <div class="mb-3">
+        <label class="form-label">
+            Texto de la opción del capítulo anterior
+        </label>
+        <input name="textoOpcion"
+               class="form-control" required />
+    </div>
+
+    <button type="submit" class="btn btn-primary">
+        Guardar capítulo
+    </button>
+
+    <a asp-action="Index" class="btn btn-secondary">
+        Cancelar
+    </a>
+</form>

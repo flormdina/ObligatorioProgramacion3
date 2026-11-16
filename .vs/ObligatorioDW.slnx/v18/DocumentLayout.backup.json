@@ -1,0 +1,917 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Facu Torres\\Desktop\\Prog3\\Obligatorio\\ObligatorioDW\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{CA4D218B-F4B4-4D9C-8540-EB335BEA6B8E}|Presentacion\\Presentacion.csproj|c:\\users\\facu torres\\desktop\\prog3\\obligatorio\\obligatoriodw\\presentacion\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CA4D218B-F4B4-4D9C-8540-EB335BEA6B8E}|Presentacion\\Presentacion.csproj|solutionrelative:presentacion\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{25C98F5D-FCB3-C730-A103-E3EA284F49DD}|ObligatorioDW\\ObligatorioDW.csproj|c:\\users\\facu torres\\desktop\\prog3\\obligatorio\\obligatoriodw\\obligatoriodw\\entidades\\lectura.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{25C98F5D-FCB3-C730-A103-E3EA284F49DD}|ObligatorioDW\\ObligatorioDW.csproj|solutionrelative:obligatoriodw\\entidades\\lectura.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4F088159-FE53-1417-AD52-55A97CB2FBB6}|DTOs\\DTOs.csproj|c:\\users\\facu torres\\desktop\\prog3\\obligatorio\\obligatoriodw\\dtos\\dtos\\usuariodto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4F088159-FE53-1417-AD52-55A97CB2FBB6}|DTOs\\DTOs.csproj|solutionrelative:dtos\\dtos\\usuariodto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4F088159-FE53-1417-AD52-55A97CB2FBB6}|DTOs\\DTOs.csproj|c:\\users\\facu torres\\desktop\\prog3\\obligatorio\\obligatoriodw\\dtos\\dtos\\logindto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4F088159-FE53-1417-AD52-55A97CB2FBB6}|DTOs\\DTOs.csproj|solutionrelative:dtos\\dtos\\logindto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{12EE6AF2-673D-44DB-89DD-7C990B8141A2}|LogicaDeAplicacion\\LogicaDeAplicacion.csproj|c:\\users\\facu torres\\desktop\\prog3\\obligatorio\\obligatoriodw\\logicadeaplicacion\\casosdeuso\\usuario\\logincu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{12EE6AF2-673D-44DB-89DD-7C990B8141A2}|LogicaDeAplicacion\\LogicaDeAplicacion.csproj|solutionrelative:logicadeaplicacion\\casosdeuso\\usuario\\logincu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CA4D218B-F4B4-4D9C-8540-EB335BEA6B8E}|Presentacion\\Presentacion.csproj|c:\\users\\facu torres\\desktop\\prog3\\obligatorio\\obligatoriodw\\presentacion\\views\\usuario\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{CA4D218B-F4B4-4D9C-8540-EB335BEA6B8E}|Presentacion\\Presentacion.csproj|solutionrelative:presentacion\\views\\usuario\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CA4D218B-F4B4-4D9C-8540-EB335BEA6B8E}|Presentacion\\Presentacion.csproj|c:\\users\\facu torres\\desktop\\prog3\\obligatorio\\obligatoriodw\\presentacion\\controllers\\usuariocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CA4D218B-F4B4-4D9C-8540-EB335BEA6B8E}|Presentacion\\Presentacion.csproj|solutionrelative:presentacion\\controllers\\usuariocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{25C98F5D-FCB3-C730-A103-E3EA284F49DD}|ObligatorioDW\\ObligatorioDW.csproj|c:\\users\\facu torres\\desktop\\prog3\\obligatorio\\obligatoriodw\\obligatoriodw\\interfacesderepositorio\\irepositoriousuario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{25C98F5D-FCB3-C730-A103-E3EA284F49DD}|ObligatorioDW\\ObligatorioDW.csproj|solutionrelative:obligatoriodw\\interfacesderepositorio\\irepositoriousuario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{12EE6AF2-673D-44DB-89DD-7C990B8141A2}|LogicaDeAplicacion\\LogicaDeAplicacion.csproj|c:\\users\\facu torres\\desktop\\prog3\\obligatorio\\obligatoriodw\\logicadeaplicacion\\interfacesdecasodeuso\\usuarios\\iloginusuario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{12EE6AF2-673D-44DB-89DD-7C990B8141A2}|LogicaDeAplicacion\\LogicaDeAplicacion.csproj|solutionrelative:logicadeaplicacion\\interfacesdecasodeuso\\usuarios\\iloginusuario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{55F97DD1-ED4B-4A99-A811-E8FA0310F94D}|LogicaAccesoDato\\LogicaAccesoDato.csproj|c:\\users\\facu torres\\desktop\\prog3\\obligatorio\\obligatoriodw\\logicaaccesodato\\ef\\repositorios\\repositoriousuario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{55F97DD1-ED4B-4A99-A811-E8FA0310F94D}|LogicaAccesoDato\\LogicaAccesoDato.csproj|solutionrelative:logicaaccesodato\\ef\\repositorios\\repositoriousuario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4F088159-FE53-1417-AD52-55A97CB2FBB6}|DTOs\\DTOs.csproj|c:\\users\\facu torres\\desktop\\prog3\\obligatorio\\obligatoriodw\\dtos\\dtos\\capitulodto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4F088159-FE53-1417-AD52-55A97CB2FBB6}|DTOs\\DTOs.csproj|solutionrelative:dtos\\dtos\\capitulodto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{12EE6AF2-673D-44DB-89DD-7C990B8141A2}|LogicaDeAplicacion\\LogicaDeAplicacion.csproj|c:\\users\\facu torres\\desktop\\prog3\\obligatorio\\obligatoriodw\\logicadeaplicacion\\casosdeuso\\usuario\\agregarusuariocu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{12EE6AF2-673D-44DB-89DD-7C990B8141A2}|LogicaDeAplicacion\\LogicaDeAplicacion.csproj|solutionrelative:logicadeaplicacion\\casosdeuso\\usuario\\agregarusuariocu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{12EE6AF2-673D-44DB-89DD-7C990B8141A2}|LogicaDeAplicacion\\LogicaDeAplicacion.csproj|c:\\users\\facu torres\\desktop\\prog3\\obligatorio\\obligatoriodw\\logicadeaplicacion\\casosdeuso\\historia\\agregarhistoriacu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{12EE6AF2-673D-44DB-89DD-7C990B8141A2}|LogicaDeAplicacion\\LogicaDeAplicacion.csproj|solutionrelative:logicadeaplicacion\\casosdeuso\\historia\\agregarhistoriacu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CA4D218B-F4B4-4D9C-8540-EB335BEA6B8E}|Presentacion\\Presentacion.csproj|c:\\users\\facu torres\\desktop\\prog3\\obligatorio\\obligatoriodw\\presentacion\\views\\usuario\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{CA4D218B-F4B4-4D9C-8540-EB335BEA6B8E}|Presentacion\\Presentacion.csproj|solutionrelative:presentacion\\views\\usuario\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CA4D218B-F4B4-4D9C-8540-EB335BEA6B8E}|Presentacion\\Presentacion.csproj|c:\\users\\facu torres\\desktop\\prog3\\obligatorio\\obligatoriodw\\presentacion\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{CA4D218B-F4B4-4D9C-8540-EB335BEA6B8E}|Presentacion\\Presentacion.csproj|solutionrelative:presentacion\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CA4D218B-F4B4-4D9C-8540-EB335BEA6B8E}|Presentacion\\Presentacion.csproj|c:\\users\\facu torres\\desktop\\prog3\\obligatorio\\obligatoriodw\\presentacion\\controllers\\historiacontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CA4D218B-F4B4-4D9C-8540-EB335BEA6B8E}|Presentacion\\Presentacion.csproj|solutionrelative:presentacion\\controllers\\historiacontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CA4D218B-F4B4-4D9C-8540-EB335BEA6B8E}|Presentacion\\Presentacion.csproj|c:\\users\\facu torres\\desktop\\prog3\\obligatorio\\obligatoriodw\\presentacion\\views\\historia\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{CA4D218B-F4B4-4D9C-8540-EB335BEA6B8E}|Presentacion\\Presentacion.csproj|solutionrelative:presentacion\\views\\historia\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{55F97DD1-ED4B-4A99-A811-E8FA0310F94D}|LogicaAccesoDato\\LogicaAccesoDato.csproj|c:\\users\\facu torres\\desktop\\prog3\\obligatorio\\obligatoriodw\\logicaaccesodato\\ef\\repositorios\\repositoriohistoria.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{55F97DD1-ED4B-4A99-A811-E8FA0310F94D}|LogicaAccesoDato\\LogicaAccesoDato.csproj|solutionrelative:logicaaccesodato\\ef\\repositorios\\repositoriohistoria.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{25C98F5D-FCB3-C730-A103-E3EA284F49DD}|ObligatorioDW\\ObligatorioDW.csproj|c:\\users\\facu torres\\desktop\\prog3\\obligatorio\\obligatoriodw\\obligatoriodw\\interfacesderepositorio\\irepositoriohistoria.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{25C98F5D-FCB3-C730-A103-E3EA284F49DD}|ObligatorioDW\\ObligatorioDW.csproj|solutionrelative:obligatoriodw\\interfacesderepositorio\\irepositoriohistoria.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{12EE6AF2-673D-44DB-89DD-7C990B8141A2}|LogicaDeAplicacion\\LogicaDeAplicacion.csproj|c:\\users\\facu torres\\desktop\\prog3\\obligatorio\\obligatoriodw\\logicadeaplicacion\\casosdeuso\\historia\\obtenertodashistoriascu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{12EE6AF2-673D-44DB-89DD-7C990B8141A2}|LogicaDeAplicacion\\LogicaDeAplicacion.csproj|solutionrelative:logicadeaplicacion\\casosdeuso\\historia\\obtenertodashistoriascu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{12EE6AF2-673D-44DB-89DD-7C990B8141A2}|LogicaDeAplicacion\\LogicaDeAplicacion.csproj|c:\\users\\facu torres\\desktop\\prog3\\obligatorio\\obligatoriodw\\logicadeaplicacion\\casosdeuso\\categorias\\obtenertodascu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{12EE6AF2-673D-44DB-89DD-7C990B8141A2}|LogicaDeAplicacion\\LogicaDeAplicacion.csproj|solutionrelative:logicadeaplicacion\\casosdeuso\\categorias\\obtenertodascu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{25C98F5D-FCB3-C730-A103-E3EA284F49DD}|ObligatorioDW\\ObligatorioDW.csproj|c:\\users\\facu torres\\desktop\\prog3\\obligatorio\\obligatoriodw\\obligatoriodw\\entidades\\historia.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{25C98F5D-FCB3-C730-A103-E3EA284F49DD}|ObligatorioDW\\ObligatorioDW.csproj|solutionrelative:obligatoriodw\\entidades\\historia.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{12EE6AF2-673D-44DB-89DD-7C990B8141A2}|LogicaDeAplicacion\\LogicaDeAplicacion.csproj|c:\\users\\facu torres\\desktop\\prog3\\obligatorio\\obligatoriodw\\logicadeaplicacion\\interfacesdecasodeuso\\historias\\iobtenertodashistorias.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{12EE6AF2-673D-44DB-89DD-7C990B8141A2}|LogicaDeAplicacion\\LogicaDeAplicacion.csproj|solutionrelative:logicadeaplicacion\\interfacesdecasodeuso\\historias\\iobtenertodashistorias.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{12EE6AF2-673D-44DB-89DD-7C990B8141A2}|LogicaDeAplicacion\\LogicaDeAplicacion.csproj|c:\\users\\facu torres\\desktop\\prog3\\obligatorio\\obligatoriodw\\logicadeaplicacion\\interfacesdecasodeuso\\categorias\\iobtenertodas.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{12EE6AF2-673D-44DB-89DD-7C990B8141A2}|LogicaDeAplicacion\\LogicaDeAplicacion.csproj|solutionrelative:logicadeaplicacion\\interfacesdecasodeuso\\categorias\\iobtenertodas.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{12EE6AF2-673D-44DB-89DD-7C990B8141A2}|LogicaDeAplicacion\\LogicaDeAplicacion.csproj|c:\\users\\facu torres\\desktop\\prog3\\obligatorio\\obligatoriodw\\logicadeaplicacion\\interfacesdecasodeuso\\historias\\iagregarhistoria.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{12EE6AF2-673D-44DB-89DD-7C990B8141A2}|LogicaDeAplicacion\\LogicaDeAplicacion.csproj|solutionrelative:logicadeaplicacion\\interfacesdecasodeuso\\historias\\iagregarhistoria.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{25C98F5D-FCB3-C730-A103-E3EA284F49DD}|ObligatorioDW\\ObligatorioDW.csproj|c:\\users\\facu torres\\desktop\\prog3\\obligatorio\\obligatoriodw\\obligatoriodw\\interfacesderepositorio\\irepositoriocategoria.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{25C98F5D-FCB3-C730-A103-E3EA284F49DD}|ObligatorioDW\\ObligatorioDW.csproj|solutionrelative:obligatoriodw\\interfacesderepositorio\\irepositoriocategoria.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{55F97DD1-ED4B-4A99-A811-E8FA0310F94D}|LogicaAccesoDato\\LogicaAccesoDato.csproj|c:\\users\\facu torres\\desktop\\prog3\\obligatorio\\obligatoriodw\\logicaaccesodato\\ef\\repositorios\\repositoriocategoria.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{55F97DD1-ED4B-4A99-A811-E8FA0310F94D}|LogicaAccesoDato\\LogicaAccesoDato.csproj|solutionrelative:logicaaccesodato\\ef\\repositorios\\repositoriocategoria.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CA4D218B-F4B4-4D9C-8540-EB335BEA6B8E}|Presentacion\\Presentacion.csproj|c:\\users\\facu torres\\desktop\\prog3\\obligatorio\\obligatoriodw\\presentacion\\views\\historia\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{CA4D218B-F4B4-4D9C-8540-EB335BEA6B8E}|Presentacion\\Presentacion.csproj|solutionrelative:presentacion\\views\\historia\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CA4D218B-F4B4-4D9C-8540-EB335BEA6B8E}|Presentacion\\Presentacion.csproj|c:\\users\\facu torres\\desktop\\prog3\\obligatorio\\obligatoriodw\\presentacion\\views\\shared\\_layout.cshtml.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{CA4D218B-F4B4-4D9C-8540-EB335BEA6B8E}|Presentacion\\Presentacion.csproj|solutionrelative:presentacion\\views\\shared\\_layout.cshtml.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4F088159-FE53-1417-AD52-55A97CB2FBB6}|DTOs\\DTOs.csproj|c:\\users\\facu torres\\desktop\\prog3\\obligatorio\\obligatoriodw\\dtos\\mappers\\usuariomapper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4F088159-FE53-1417-AD52-55A97CB2FBB6}|DTOs\\DTOs.csproj|solutionrelative:dtos\\mappers\\usuariomapper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4F088159-FE53-1417-AD52-55A97CB2FBB6}|DTOs\\DTOs.csproj|c:\\users\\facu torres\\desktop\\prog3\\obligatorio\\obligatoriodw\\dtos\\mappers\\historiamapper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4F088159-FE53-1417-AD52-55A97CB2FBB6}|DTOs\\DTOs.csproj|solutionrelative:dtos\\mappers\\historiamapper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4F088159-FE53-1417-AD52-55A97CB2FBB6}|DTOs\\DTOs.csproj|c:\\users\\facu torres\\desktop\\prog3\\obligatorio\\obligatoriodw\\dtos\\dtos\\historiadto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4F088159-FE53-1417-AD52-55A97CB2FBB6}|DTOs\\DTOs.csproj|solutionrelative:dtos\\dtos\\historiadto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{25C98F5D-FCB3-C730-A103-E3EA284F49DD}|ObligatorioDW\\ObligatorioDW.csproj|c:\\users\\facu torres\\desktop\\prog3\\obligatorio\\obligatoriodw\\obligatoriodw\\interfacesderepositorio\\irepositorio.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{25C98F5D-FCB3-C730-A103-E3EA284F49DD}|ObligatorioDW\\ObligatorioDW.csproj|solutionrelative:obligatoriodw\\interfacesderepositorio\\irepositorio.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4F088159-FE53-1417-AD52-55A97CB2FBB6}|DTOs\\DTOs.csproj|c:\\users\\facu torres\\desktop\\prog3\\obligatorio\\obligatoriodw\\dtos\\mappers\\categoriamapper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4F088159-FE53-1417-AD52-55A97CB2FBB6}|DTOs\\DTOs.csproj|solutionrelative:dtos\\mappers\\categoriamapper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{25C98F5D-FCB3-C730-A103-E3EA284F49DD}|ObligatorioDW\\ObligatorioDW.csproj|c:\\users\\facu torres\\desktop\\prog3\\obligatorio\\obligatoriodw\\obligatoriodw\\entidades\\capitulo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{25C98F5D-FCB3-C730-A103-E3EA284F49DD}|ObligatorioDW\\ObligatorioDW.csproj|solutionrelative:obligatoriodw\\entidades\\capitulo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{25C98F5D-FCB3-C730-A103-E3EA284F49DD}|ObligatorioDW\\ObligatorioDW.csproj|c:\\users\\facu torres\\desktop\\prog3\\obligatorio\\obligatoriodw\\obligatoriodw\\entidades\\usuario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{25C98F5D-FCB3-C730-A103-E3EA284F49DD}|ObligatorioDW\\ObligatorioDW.csproj|solutionrelative:obligatoriodw\\entidades\\usuario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{55F97DD1-ED4B-4A99-A811-E8FA0310F94D}|LogicaAccesoDato\\LogicaAccesoDato.csproj|c:\\users\\facu torres\\desktop\\prog3\\obligatorio\\obligatoriodw\\logicaaccesodato\\ef\\obligatoriocontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{55F97DD1-ED4B-4A99-A811-E8FA0310F94D}|LogicaAccesoDato\\LogicaAccesoDato.csproj|solutionrelative:logicaaccesodato\\ef\\obligatoriocontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{12EE6AF2-673D-44DB-89DD-7C990B8141A2}|LogicaDeAplicacion\\LogicaDeAplicacion.csproj|c:\\users\\facu torres\\desktop\\prog3\\obligatorio\\obligatoriodw\\logicadeaplicacion\\logicadeaplicacion.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{12EE6AF2-673D-44DB-89DD-7C990B8141A2}|LogicaDeAplicacion\\LogicaDeAplicacion.csproj|solutionrelative:logicadeaplicacion\\logicadeaplicacion.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4F088159-FE53-1417-AD52-55A97CB2FBB6}|DTOs\\DTOs.csproj|c:\\users\\facu torres\\desktop\\prog3\\obligatorio\\obligatoriodw\\dtos\\dtos\\categoriadto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4F088159-FE53-1417-AD52-55A97CB2FBB6}|DTOs\\DTOs.csproj|solutionrelative:dtos\\dtos\\categoriadto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{55F97DD1-ED4B-4A99-A811-E8FA0310F94D}|LogicaAccesoDato\\LogicaAccesoDato.csproj|c:\\users\\facu torres\\desktop\\prog3\\obligatorio\\obligatoriodw\\logicaaccesodato\\migrations\\obligatoriocontextmodelsnapshot.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{55F97DD1-ED4B-4A99-A811-E8FA0310F94D}|LogicaAccesoDato\\LogicaAccesoDato.csproj|solutionrelative:logicaaccesodato\\migrations\\obligatoriocontextmodelsnapshot.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{55F97DD1-ED4B-4A99-A811-E8FA0310F94D}|LogicaAccesoDato\\LogicaAccesoDato.csproj|c:\\users\\facu torres\\desktop\\prog3\\obligatorio\\obligatoriodw\\logicaaccesodato\\migrations\\20260924114005_inicializamosbbdd.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{55F97DD1-ED4B-4A99-A811-E8FA0310F94D}|LogicaAccesoDato\\LogicaAccesoDato.csproj|solutionrelative:logicaaccesodato\\migrations\\20260924114005_inicializamosbbdd.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{25C98F5D-FCB3-C730-A103-E3EA284F49DD}|ObligatorioDW\\ObligatorioDW.csproj|c:\\users\\facu torres\\desktop\\prog3\\obligatorio\\obligatoriodw\\obligatoriodw\\valueobjects\\usuario\\password.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{25C98F5D-FCB3-C730-A103-E3EA284F49DD}|ObligatorioDW\\ObligatorioDW.csproj|solutionrelative:obligatoriodw\\valueobjects\\usuario\\password.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{12EE6AF2-673D-44DB-89DD-7C990B8141A2}|LogicaDeAplicacion\\LogicaDeAplicacion.csproj|c:\\users\\facu torres\\desktop\\prog3\\obligatorio\\obligatoriodw\\logicadeaplicacion\\interfacesdecasodeuso\\usuarios\\iagregarusuario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{12EE6AF2-673D-44DB-89DD-7C990B8141A2}|LogicaDeAplicacion\\LogicaDeAplicacion.csproj|solutionrelative:logicadeaplicacion\\interfacesdecasodeuso\\usuarios\\iagregarusuario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CA4D218B-F4B4-4D9C-8540-EB335BEA6B8E}|Presentacion\\Presentacion.csproj|c:\\users\\facu torres\\desktop\\prog3\\obligatorio\\obligatoriodw\\presentacion\\views\\categoria\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{CA4D218B-F4B4-4D9C-8540-EB335BEA6B8E}|Presentacion\\Presentacion.csproj|solutionrelative:presentacion\\views\\categoria\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CA4D218B-F4B4-4D9C-8540-EB335BEA6B8E}|Presentacion\\Presentacion.csproj|c:\\users\\facu torres\\desktop\\prog3\\obligatorio\\obligatoriodw\\presentacion\\controllers\\categoriacontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CA4D218B-F4B4-4D9C-8540-EB335BEA6B8E}|Presentacion\\Presentacion.csproj|solutionrelative:presentacion\\controllers\\categoriacontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{25C98F5D-FCB3-C730-A103-E3EA284F49DD}|ObligatorioDW\\ObligatorioDW.csproj|c:\\users\\facu torres\\desktop\\prog3\\obligatorio\\obligatoriodw\\obligatoriodw\\enums\\estado.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{25C98F5D-FCB3-C730-A103-E3EA284F49DD}|ObligatorioDW\\ObligatorioDW.csproj|solutionrelative:obligatoriodw\\enums\\estado.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4F088159-FE53-1417-AD52-55A97CB2FBB6}|DTOs\\DTOs.csproj|c:\\users\\facu torres\\desktop\\prog3\\obligatorio\\obligatoriodw\\dtos\\mappers\\capitulomapper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4F088159-FE53-1417-AD52-55A97CB2FBB6}|DTOs\\DTOs.csproj|solutionrelative:dtos\\mappers\\capitulomapper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{25C98F5D-FCB3-C730-A103-E3EA284F49DD}|ObligatorioDW\\ObligatorioDW.csproj|c:\\users\\facu torres\\desktop\\prog3\\obligatorio\\obligatoriodw\\obligatoriodw\\entidades\\categoria.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{25C98F5D-FCB3-C730-A103-E3EA284F49DD}|ObligatorioDW\\ObligatorioDW.csproj|solutionrelative:obligatoriodw\\entidades\\categoria.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|ViewDataWindow_MSSQL__/_localdb__MSSQLLocalDB/Lectura2026/True/SqlTable/dbo.Categorias.sql||{0058A1F7-65F3-4DB9-B3D0-CA7E64DD73CD}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Facu Torres\\Desktop\\Prog3\\Obligatorio\\ObligatorioDW\\LogicaAccesoDatos\\EF\\ObligatorioContext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:LogicaAccesoDatos\\EF\\ObligatorioContext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{25C98F5D-FCB3-C730-A103-E3EA284F49DD}|ObligatorioDW\\ObligatorioDW.csproj|c:\\users\\facu torres\\desktop\\prog3\\obligatorio\\obligatoriodw\\obligatoriodw\\excepciones\\usuarioexception.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{25C98F5D-FCB3-C730-A103-E3EA284F49DD}|ObligatorioDW\\ObligatorioDW.csproj|solutionrelative:obligatoriodw\\excepciones\\usuarioexception.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{25C98F5D-FCB3-C730-A103-E3EA284F49DD}|ObligatorioDW\\ObligatorioDW.csproj|c:\\users\\facu torres\\desktop\\prog3\\obligatorio\\obligatoriodw\\obligatoriodw\\interfacesdeldominio\\ivalidable.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{25C98F5D-FCB3-C730-A103-E3EA284F49DD}|ObligatorioDW\\ObligatorioDW.csproj|solutionrelative:obligatoriodw\\interfacesdeldominio\\ivalidable.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{25C98F5D-FCB3-C730-A103-E3EA284F49DD}|ObligatorioDW\\ObligatorioDW.csproj|c:\\users\\facu torres\\desktop\\prog3\\obligatorio\\obligatoriodw\\obligatoriodw\\obligatoriodw.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{25C98F5D-FCB3-C730-A103-E3EA284F49DD}|ObligatorioDW\\ObligatorioDW.csproj|solutionrelative:obligatoriodw\\obligatoriodw.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{25C98F5D-FCB3-C730-A103-E3EA284F49DD}|ObligatorioDW\\ObligatorioDW.csproj|c:\\users\\facu torres\\desktop\\prog3\\obligatorio\\obligatoriodw\\obligatoriodw\\entidades\\opcion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{25C98F5D-FCB3-C730-A103-E3EA284F49DD}|ObligatorioDW\\ObligatorioDW.csproj|solutionrelative:obligatoriodw\\entidades\\opcion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{25C98F5D-FCB3-C730-A103-E3EA284F49DD}|ObligatorioDW\\ObligatorioDW.csproj|c:\\users\\facu torres\\desktop\\prog3\\obligatorio\\obligatoriodw\\obligatoriodw\\entidades\\capitulofinal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{25C98F5D-FCB3-C730-A103-E3EA284F49DD}|ObligatorioDW\\ObligatorioDW.csproj|solutionrelative:obligatoriodw\\entidades\\capitulofinal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{25C98F5D-FCB3-C730-A103-E3EA284F49DD}|ObligatorioDW\\ObligatorioDW.csproj|c:\\users\\facu torres\\desktop\\prog3\\obligatorio\\obligatoriodw\\obligatoriodw\\entidades\\capitulointermedio.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{25C98F5D-FCB3-C730-A103-E3EA284F49DD}|ObligatorioDW\\ObligatorioDW.csproj|solutionrelative:obligatoriodw\\entidades\\capitulointermedio.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 4,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{d84ee353-0bef-5a41-a649-8f89aca5d84d}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "UsuarioDTO.cs",
+              "DocumentMoniker": "C:\\Users\\Facu Torres\\Desktop\\Prog3\\Obligatorio\\ObligatorioDW\\DTOs\\DTOs\\UsuarioDTO.cs",
+              "RelativeDocumentMoniker": "DTOs\\DTOs\\UsuarioDTO.cs",
+              "ToolTip": "C:\\Users\\Facu Torres\\Desktop\\Prog3\\Obligatorio\\ObligatorioDW\\DTOs\\DTOs\\UsuarioDTO.cs",
+              "RelativeToolTip": "DTOs\\DTOs\\UsuarioDTO.cs",
+              "ViewState": "AgIAAAwAAAAAAAAAAAAYwBAAAAAVAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-10T11:40:30.258Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Lectura.cs",
+              "DocumentMoniker": "C:\\Users\\Facu Torres\\Desktop\\Prog3\\Obligatorio\\ObligatorioDW\\ObligatorioDW\\Entidades\\Lectura.cs",
+              "RelativeDocumentMoniker": "ObligatorioDW\\Entidades\\Lectura.cs",
+              "ToolTip": "C:\\Users\\Facu Torres\\Desktop\\Prog3\\Obligatorio\\ObligatorioDW\\ObligatorioDW\\Entidades\\Lectura.cs",
+              "RelativeToolTip": "ObligatorioDW\\Entidades\\Lectura.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-07T16:22:35.515Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "LoginDTO.cs",
+              "DocumentMoniker": "C:\\Users\\Facu Torres\\Desktop\\Prog3\\Obligatorio\\ObligatorioDW\\DTOs\\DTOs\\LoginDTO.cs",
+              "RelativeDocumentMoniker": "DTOs\\DTOs\\LoginDTO.cs",
+              "ToolTip": "C:\\Users\\Facu Torres\\Desktop\\Prog3\\Obligatorio\\ObligatorioDW\\DTOs\\DTOs\\LoginDTO.cs",
+              "RelativeToolTip": "DTOs\\DTOs\\LoginDTO.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAsAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-24T22:09:33.49Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\Facu Torres\\Desktop\\Prog3\\Obligatorio\\ObligatorioDW\\Presentacion\\Program.cs",
+              "RelativeDocumentMoniker": "Presentacion\\Program.cs",
+              "ToolTip": "C:\\Users\\Facu Torres\\Desktop\\Prog3\\Obligatorio\\ObligatorioDW\\Presentacion\\Program.cs",
+              "RelativeToolTip": "Presentacion\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-10T12:43:26.795Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "ILoginUsuario.cs",
+              "DocumentMoniker": "C:\\Users\\Facu Torres\\Desktop\\Prog3\\Obligatorio\\ObligatorioDW\\LogicaDeAplicacion\\InterfacesDeCasoDeUso\\Usuarios\\ILoginUsuario.cs",
+              "RelativeDocumentMoniker": "LogicaDeAplicacion\\InterfacesDeCasoDeUso\\Usuarios\\ILoginUsuario.cs",
+              "ToolTip": "C:\\Users\\Facu Torres\\Desktop\\Prog3\\Obligatorio\\ObligatorioDW\\LogicaDeAplicacion\\InterfacesDeCasoDeUso\\Usuarios\\ILoginUsuario.cs",
+              "RelativeToolTip": "LogicaDeAplicacion\\InterfacesDeCasoDeUso\\Usuarios\\ILoginUsuario.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-24T22:12:35.013Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Login.cshtml",
+              "DocumentMoniker": "C:\\Users\\Facu Torres\\Desktop\\Prog3\\Obligatorio\\ObligatorioDW\\Presentacion\\Views\\Usuario\\Login.cshtml",
+              "RelativeDocumentMoniker": "Presentacion\\Views\\Usuario\\Login.cshtml",
+              "ToolTip": "C:\\Users\\Facu Torres\\Desktop\\Prog3\\Obligatorio\\ObligatorioDW\\Presentacion\\Views\\Usuario\\Login.cshtml",
+              "RelativeToolTip": "Presentacion\\Views\\Usuario\\Login.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACMAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-09-24T22:15:33.159Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "LoginCU.cs",
+              "DocumentMoniker": "C:\\Users\\Facu Torres\\Desktop\\Prog3\\Obligatorio\\ObligatorioDW\\LogicaDeAplicacion\\CasosDeUso\\Usuario\\LoginCU.cs",
+              "RelativeDocumentMoniker": "LogicaDeAplicacion\\CasosDeUso\\Usuario\\LoginCU.cs",
+              "ToolTip": "C:\\Users\\Facu Torres\\Desktop\\Prog3\\Obligatorio\\ObligatorioDW\\LogicaDeAplicacion\\CasosDeUso\\Usuario\\LoginCU.cs",
+              "RelativeToolTip": "LogicaDeAplicacion\\CasosDeUso\\Usuario\\LoginCU.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAADkAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-24T22:11:56.3Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "UsuarioController.cs",
+              "DocumentMoniker": "C:\\Users\\Facu Torres\\Desktop\\Prog3\\Obligatorio\\ObligatorioDW\\Presentacion\\Controllers\\UsuarioController.cs",
+              "RelativeDocumentMoniker": "Presentacion\\Controllers\\UsuarioController.cs",
+              "ToolTip": "C:\\Users\\Facu Torres\\Desktop\\Prog3\\Obligatorio\\ObligatorioDW\\Presentacion\\Controllers\\UsuarioController.cs",
+              "RelativeToolTip": "Presentacion\\Controllers\\UsuarioController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAI0AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-21T16:17:07.806Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "IRepositorioUsuario.cs",
+              "DocumentMoniker": "C:\\Users\\Facu Torres\\Desktop\\Prog3\\Obligatorio\\ObligatorioDW\\ObligatorioDW\\InterfacesDeRepositorio\\IRepositorioUsuario.cs",
+              "RelativeDocumentMoniker": "ObligatorioDW\\InterfacesDeRepositorio\\IRepositorioUsuario.cs",
+              "ToolTip": "C:\\Users\\Facu Torres\\Desktop\\Prog3\\Obligatorio\\ObligatorioDW\\ObligatorioDW\\InterfacesDeRepositorio\\IRepositorioUsuario.cs",
+              "RelativeToolTip": "ObligatorioDW\\InterfacesDeRepositorio\\IRepositorioUsuario.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAAA4AAABGAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-21T18:18:27.182Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "AgregarUsuarioCU.cs",
+              "DocumentMoniker": "C:\\Users\\Facu Torres\\Desktop\\Prog3\\Obligatorio\\ObligatorioDW\\LogicaDeAplicacion\\CasosDeUso\\Usuario\\AgregarUsuarioCU.cs",
+              "RelativeDocumentMoniker": "LogicaDeAplicacion\\CasosDeUso\\Usuario\\AgregarUsuarioCU.cs",
+              "ToolTip": "C:\\Users\\Facu Torres\\Desktop\\Prog3\\Obligatorio\\ObligatorioDW\\LogicaDeAplicacion\\CasosDeUso\\Usuario\\AgregarUsuarioCU.cs",
+              "RelativeToolTip": "LogicaDeAplicacion\\CasosDeUso\\Usuario\\AgregarUsuarioCU.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAACQAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-21T16:31:19.387Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "AgregarHistoriaCU.cs",
+              "DocumentMoniker": "C:\\Users\\Facu Torres\\Desktop\\Prog3\\Obligatorio\\ObligatorioDW\\LogicaDeAplicacion\\CasosDeUso\\Historia\\AgregarHistoriaCU.cs",
+              "RelativeDocumentMoniker": "LogicaDeAplicacion\\CasosDeUso\\Historia\\AgregarHistoriaCU.cs",
+              "ToolTip": "C:\\Users\\Facu Torres\\Desktop\\Prog3\\Obligatorio\\ObligatorioDW\\LogicaDeAplicacion\\CasosDeUso\\Historia\\AgregarHistoriaCU.cs",
+              "RelativeToolTip": "LogicaDeAplicacion\\CasosDeUso\\Historia\\AgregarHistoriaCU.cs",
+              "ViewState": "AgIAABIAAAAAAAAAAAAYwBgAAABdAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-24T14:48:28.235Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "Create.cshtml",
+              "DocumentMoniker": "C:\\Users\\Facu Torres\\Desktop\\Prog3\\Obligatorio\\ObligatorioDW\\Presentacion\\Views\\Usuario\\Create.cshtml",
+              "RelativeDocumentMoniker": "Presentacion\\Views\\Usuario\\Create.cshtml",
+              "ToolTip": "C:\\Users\\Facu Torres\\Desktop\\Prog3\\Obligatorio\\ObligatorioDW\\Presentacion\\Views\\Usuario\\Create.cshtml",
+              "RelativeToolTip": "Presentacion\\Views\\Usuario\\Create.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACcAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-09-24T20:50:22.801Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "RepositorioUsuario.cs",
+              "DocumentMoniker": "C:\\Users\\Facu Torres\\Desktop\\Prog3\\Obligatorio\\ObligatorioDW\\LogicaAccesoDato\\EF\\Repositorios\\RepositorioUsuario.cs",
+              "RelativeDocumentMoniker": "LogicaAccesoDato\\EF\\Repositorios\\RepositorioUsuario.cs",
+              "ToolTip": "C:\\Users\\Facu Torres\\Desktop\\Prog3\\Obligatorio\\ObligatorioDW\\LogicaAccesoDato\\EF\\Repositorios\\RepositorioUsuario.cs",
+              "RelativeToolTip": "LogicaAccesoDato\\EF\\Repositorios\\RepositorioUsuario.cs",
+              "ViewState": "AgIAACoAAAAAAAAAAAAIwEQAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-21T18:16:19.554Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "HistoriaController.cs",
+              "DocumentMoniker": "C:\\Users\\Facu Torres\\Desktop\\Prog3\\Obligatorio\\ObligatorioDW\\Presentacion\\Controllers\\HistoriaController.cs",
+              "RelativeDocumentMoniker": "Presentacion\\Controllers\\HistoriaController.cs",
+              "ToolTip": "C:\\Users\\Facu Torres\\Desktop\\Prog3\\Obligatorio\\ObligatorioDW\\Presentacion\\Controllers\\HistoriaController.cs",
+              "RelativeToolTip": "Presentacion\\Controllers\\HistoriaController.cs",
+              "ViewState": "AgIAAF4AAAAAAAAAAAAAACsAAAA2AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-24T14:59:19.741Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "Create.cshtml",
+              "DocumentMoniker": "C:\\Users\\Facu Torres\\Desktop\\Prog3\\Obligatorio\\ObligatorioDW\\Presentacion\\Views\\Historia\\Create.cshtml",
+              "RelativeDocumentMoniker": "Presentacion\\Views\\Historia\\Create.cshtml",
+              "ToolTip": "C:\\Users\\Facu Torres\\Desktop\\Prog3\\Obligatorio\\ObligatorioDW\\Presentacion\\Views\\Historia\\Create.cshtml",
+              "RelativeToolTip": "Presentacion\\Views\\Historia\\Create.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAA6AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-09-24T20:28:10.473Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "CapituloDTO.cs",
+              "DocumentMoniker": "C:\\Users\\Facu Torres\\Desktop\\Prog3\\Obligatorio\\ObligatorioDW\\DTOs\\DTOs\\CapituloDTO.cs",
+              "RelativeDocumentMoniker": "DTOs\\DTOs\\CapituloDTO.cs",
+              "ToolTip": "C:\\Users\\Facu Torres\\Desktop\\Prog3\\Obligatorio\\ObligatorioDW\\DTOs\\DTOs\\CapituloDTO.cs",
+              "RelativeToolTip": "DTOs\\DTOs\\CapituloDTO.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAApAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-17T11:40:21.957Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "C:\\Users\\Facu Torres\\Desktop\\Prog3\\Obligatorio\\ObligatorioDW\\Presentacion\\Views\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "Presentacion\\Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "C:\\Users\\Facu Torres\\Desktop\\Prog3\\Obligatorio\\ObligatorioDW\\Presentacion\\Views\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "Presentacion\\Views\\Shared\\_Layout.cshtml",
+              "ViewState": "AgIAABIAAAAAAAAAAAAIwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-09-24T20:27:56.448Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "IRepositorioHistoria.cs",
+              "DocumentMoniker": "C:\\Users\\Facu Torres\\Desktop\\Prog3\\Obligatorio\\ObligatorioDW\\ObligatorioDW\\InterfacesDeRepositorio\\IRepositorioHistoria.cs",
+              "RelativeDocumentMoniker": "ObligatorioDW\\InterfacesDeRepositorio\\IRepositorioHistoria.cs",
+              "ToolTip": "C:\\Users\\Facu Torres\\Desktop\\Prog3\\Obligatorio\\ObligatorioDW\\ObligatorioDW\\InterfacesDeRepositorio\\IRepositorioHistoria.cs",
+              "RelativeToolTip": "ObligatorioDW\\InterfacesDeRepositorio\\IRepositorioHistoria.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-24T14:54:00.334Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "RepositorioHistoria.cs",
+              "DocumentMoniker": "C:\\Users\\Facu Torres\\Desktop\\Prog3\\Obligatorio\\ObligatorioDW\\LogicaAccesoDato\\EF\\Repositorios\\RepositorioHistoria.cs",
+              "RelativeDocumentMoniker": "LogicaAccesoDato\\EF\\Repositorios\\RepositorioHistoria.cs",
+              "ToolTip": "C:\\Users\\Facu Torres\\Desktop\\Prog3\\Obligatorio\\ObligatorioDW\\LogicaAccesoDato\\EF\\Repositorios\\RepositorioHistoria.cs",
+              "RelativeToolTip": "LogicaAccesoDato\\EF\\Repositorios\\RepositorioHistoria.cs",
+              "ViewState": "AgIAAA8AAAAAAAAAAAA1wBkAAAAcAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-24T14:45:50.703Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "ObtenerTodasCU.cs",
+              "DocumentMoniker": "C:\\Users\\Facu Torres\\Desktop\\Prog3\\Obligatorio\\ObligatorioDW\\LogicaDeAplicacion\\CasosDeUso\\Categorias\\ObtenerTodasCU.cs",
+              "RelativeDocumentMoniker": "LogicaDeAplicacion\\CasosDeUso\\Categorias\\ObtenerTodasCU.cs",
+              "ToolTip": "C:\\Users\\Facu Torres\\Desktop\\Prog3\\Obligatorio\\ObligatorioDW\\LogicaDeAplicacion\\CasosDeUso\\Categorias\\ObtenerTodasCU.cs",
+              "RelativeToolTip": "LogicaDeAplicacion\\CasosDeUso\\Categorias\\ObtenerTodasCU.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAAzAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-10T13:34:43.485Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "ObtenerTodasHistoriasCU.cs",
+              "DocumentMoniker": "C:\\Users\\Facu Torres\\Desktop\\Prog3\\Obligatorio\\ObligatorioDW\\LogicaDeAplicacion\\CasosDeUso\\Historia\\ObtenerTodasHistoriasCU.cs",
+              "RelativeDocumentMoniker": "LogicaDeAplicacion\\CasosDeUso\\Historia\\ObtenerTodasHistoriasCU.cs",
+              "ToolTip": "C:\\Users\\Facu Torres\\Desktop\\Prog3\\Obligatorio\\ObligatorioDW\\LogicaDeAplicacion\\CasosDeUso\\Historia\\ObtenerTodasHistoriasCU.cs",
+              "RelativeToolTip": "LogicaDeAplicacion\\CasosDeUso\\Historia\\ObtenerTodasHistoriasCU.cs",
+              "ViewState": "AgIAAAwAAAAAAAAAAAAAABcAAAA1AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-24T20:38:33.33Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 27,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\Facu Torres\\Desktop\\Prog3\\Obligatorio\\ObligatorioDW\\Presentacion\\Views\\Historia\\Index.cshtml",
+              "RelativeDocumentMoniker": "Presentacion\\Views\\Historia\\Index.cshtml",
+              "ToolTip": "C:\\Users\\Facu Torres\\Desktop\\Prog3\\Obligatorio\\ObligatorioDW\\Presentacion\\Views\\Historia\\Index.cshtml",
+              "RelativeToolTip": "Presentacion\\Views\\Historia\\Index.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABoAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-09-24T20:28:05.737Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 28,
+              "Title": "_Layout.cshtml.css",
+              "DocumentMoniker": "C:\\Users\\Facu Torres\\Desktop\\Prog3\\Obligatorio\\ObligatorioDW\\Presentacion\\Views\\Shared\\_Layout.cshtml.css",
+              "RelativeDocumentMoniker": "Presentacion\\Views\\Shared\\_Layout.cshtml.css",
+              "ToolTip": "C:\\Users\\Facu Torres\\Desktop\\Prog3\\Obligatorio\\ObligatorioDW\\Presentacion\\Views\\Shared\\_Layout.cshtml.css",
+              "RelativeToolTip": "Presentacion\\Views\\Shared\\_Layout.cshtml.css",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2026-09-24T20:29:46.761Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "IObtenerTodasHistorias.cs",
+              "DocumentMoniker": "C:\\Users\\Facu Torres\\Desktop\\Prog3\\Obligatorio\\ObligatorioDW\\LogicaDeAplicacion\\InterfacesDeCasoDeUso\\Historias\\IObtenerTodasHistorias.cs",
+              "RelativeDocumentMoniker": "LogicaDeAplicacion\\InterfacesDeCasoDeUso\\Historias\\IObtenerTodasHistorias.cs",
+              "ToolTip": "C:\\Users\\Facu Torres\\Desktop\\Prog3\\Obligatorio\\ObligatorioDW\\LogicaDeAplicacion\\InterfacesDeCasoDeUso\\Historias\\IObtenerTodasHistorias.cs",
+              "RelativeToolTip": "LogicaDeAplicacion\\InterfacesDeCasoDeUso\\Historias\\IObtenerTodasHistorias.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAApAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-24T20:37:40.508Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "IAgregarHistoria.cs",
+              "DocumentMoniker": "C:\\Users\\Facu Torres\\Desktop\\Prog3\\Obligatorio\\ObligatorioDW\\LogicaDeAplicacion\\InterfacesDeCasoDeUso\\Historias\\IAgregarHistoria.cs",
+              "RelativeDocumentMoniker": "LogicaDeAplicacion\\InterfacesDeCasoDeUso\\Historias\\IAgregarHistoria.cs",
+              "ToolTip": "C:\\Users\\Facu Torres\\Desktop\\Prog3\\Obligatorio\\ObligatorioDW\\LogicaDeAplicacion\\InterfacesDeCasoDeUso\\Historias\\IAgregarHistoria.cs",
+              "RelativeToolTip": "LogicaDeAplicacion\\InterfacesDeCasoDeUso\\Historias\\IAgregarHistoria.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-24T14:47:50.687Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 37,
+              "Title": "LogicaDeAplicacion.csproj",
+              "DocumentMoniker": "C:\\Users\\Facu Torres\\Desktop\\Prog3\\Obligatorio\\ObligatorioDW\\LogicaDeAplicacion\\LogicaDeAplicacion.csproj",
+              "RelativeDocumentMoniker": "LogicaDeAplicacion\\LogicaDeAplicacion.csproj",
+              "ToolTip": "C:\\Users\\Facu Torres\\Desktop\\Prog3\\Obligatorio\\ObligatorioDW\\LogicaDeAplicacion\\LogicaDeAplicacion.csproj",
+              "RelativeToolTip": "LogicaDeAplicacion\\LogicaDeAplicacion.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2026-09-24T12:08:17.52Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 30,
+              "Title": "HistoriaMapper.cs",
+              "DocumentMoniker": "C:\\Users\\Facu Torres\\Desktop\\Prog3\\Obligatorio\\ObligatorioDW\\DTOs\\Mappers\\HistoriaMapper.cs",
+              "RelativeDocumentMoniker": "DTOs\\Mappers\\HistoriaMapper.cs",
+              "ToolTip": "C:\\Users\\Facu Torres\\Desktop\\Prog3\\Obligatorio\\ObligatorioDW\\DTOs\\Mappers\\HistoriaMapper.cs",
+              "RelativeToolTip": "DTOs\\Mappers\\HistoriaMapper.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAAAgAAAAKAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-24T11:51:46.339Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 31,
+              "Title": "HistoriaDTO.cs",
+              "DocumentMoniker": "C:\\Users\\Facu Torres\\Desktop\\Prog3\\Obligatorio\\ObligatorioDW\\DTOs\\DTOs\\HistoriaDTO.cs",
+              "RelativeDocumentMoniker": "DTOs\\DTOs\\HistoriaDTO.cs",
+              "ToolTip": "C:\\Users\\Facu Torres\\Desktop\\Prog3\\Obligatorio\\ObligatorioDW\\DTOs\\DTOs\\HistoriaDTO.cs",
+              "RelativeToolTip": "DTOs\\DTOs\\HistoriaDTO.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAKAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-24T11:50:42.015Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 39,
+              "Title": "ObligatorioContextModelSnapshot.cs",
+              "DocumentMoniker": "C:\\Users\\Facu Torres\\Desktop\\Prog3\\Obligatorio\\ObligatorioDW\\LogicaAccesoDato\\Migrations\\ObligatorioContextModelSnapshot.cs",
+              "RelativeDocumentMoniker": "LogicaAccesoDato\\Migrations\\ObligatorioContextModelSnapshot.cs",
+              "ToolTip": "C:\\Users\\Facu Torres\\Desktop\\Prog3\\Obligatorio\\ObligatorioDW\\LogicaAccesoDato\\Migrations\\ObligatorioContextModelSnapshot.cs",
+              "RelativeToolTip": "LogicaAccesoDato\\Migrations\\ObligatorioContextModelSnapshot.cs",
+              "ViewState": "AgIAABkAAAAAAAAAAAAQwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-24T11:40:29.188Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 40,
+              "Title": "20260924114005_InicializamosBBDD.cs",
+              "DocumentMoniker": "C:\\Users\\Facu Torres\\Desktop\\Prog3\\Obligatorio\\ObligatorioDW\\LogicaAccesoDato\\Migrations\\20260924114005_InicializamosBBDD.cs",
+              "RelativeDocumentMoniker": "LogicaAccesoDato\\Migrations\\20260924114005_InicializamosBBDD.cs",
+              "ToolTip": "C:\\Users\\Facu Torres\\Desktop\\Prog3\\Obligatorio\\ObligatorioDW\\LogicaAccesoDato\\Migrations\\20260924114005_InicializamosBBDD.cs",
+              "RelativeToolTip": "LogicaAccesoDato\\Migrations\\20260924114005_InicializamosBBDD.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAAAoAAABFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-24T11:40:05.426Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 36,
+              "Title": "ObligatorioContext.cs",
+              "DocumentMoniker": "C:\\Users\\Facu Torres\\Desktop\\Prog3\\Obligatorio\\ObligatorioDW\\LogicaAccesoDato\\EF\\ObligatorioContext.cs",
+              "RelativeDocumentMoniker": "LogicaAccesoDato\\EF\\ObligatorioContext.cs",
+              "ToolTip": "C:\\Users\\Facu Torres\\Desktop\\Prog3\\Obligatorio\\ObligatorioDW\\LogicaAccesoDato\\EF\\ObligatorioContext.cs",
+              "RelativeToolTip": "LogicaAccesoDato\\EF\\ObligatorioContext.cs",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAswA8AAAA2AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-24T11:30:19.4Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 42,
+              "Title": "IAgregarUsuario.cs",
+              "DocumentMoniker": "C:\\Users\\Facu Torres\\Desktop\\Prog3\\Obligatorio\\ObligatorioDW\\LogicaDeAplicacion\\InterfacesDeCasoDeUso\\Usuarios\\IAgregarUsuario.cs",
+              "RelativeDocumentMoniker": "LogicaDeAplicacion\\InterfacesDeCasoDeUso\\Usuarios\\IAgregarUsuario.cs",
+              "ToolTip": "C:\\Users\\Facu Torres\\Desktop\\Prog3\\Obligatorio\\ObligatorioDW\\LogicaDeAplicacion\\InterfacesDeCasoDeUso\\Usuarios\\IAgregarUsuario.cs",
+              "RelativeToolTip": "LogicaDeAplicacion\\InterfacesDeCasoDeUso\\Usuarios\\IAgregarUsuario.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAtAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-21T16:29:36.768Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 46,
+              "Title": "CapituloMapper.cs",
+              "DocumentMoniker": "C:\\Users\\Facu Torres\\Desktop\\Prog3\\Obligatorio\\ObligatorioDW\\DTOs\\Mappers\\CapituloMapper.cs",
+              "RelativeDocumentMoniker": "DTOs\\Mappers\\CapituloMapper.cs",
+              "ToolTip": "C:\\Users\\Facu Torres\\Desktop\\Prog3\\Obligatorio\\ObligatorioDW\\DTOs\\Mappers\\CapituloMapper.cs",
+              "RelativeToolTip": "DTOs\\Mappers\\CapituloMapper.cs",
+              "ViewState": "AgIAABIAAAAAAAAAAAAYwBwAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-17T11:41:50.327Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 41,
+              "Title": "Password.cs",
+              "DocumentMoniker": "C:\\Users\\Facu Torres\\Desktop\\Prog3\\Obligatorio\\ObligatorioDW\\ObligatorioDW\\ValueObjects\\Usuario\\Password.cs",
+              "RelativeDocumentMoniker": "ObligatorioDW\\ValueObjects\\Usuario\\Password.cs",
+              "ToolTip": "C:\\Users\\Facu Torres\\Desktop\\Prog3\\Obligatorio\\ObligatorioDW\\ObligatorioDW\\ValueObjects\\Usuario\\Password.cs",
+              "RelativeToolTip": "ObligatorioDW\\ValueObjects\\Usuario\\Password.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-17T11:23:35.549Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 29,
+              "Title": "UsuarioMapper.cs",
+              "DocumentMoniker": "C:\\Users\\Facu Torres\\Desktop\\Prog3\\Obligatorio\\ObligatorioDW\\DTOs\\Mappers\\UsuarioMapper.cs",
+              "RelativeDocumentMoniker": "DTOs\\Mappers\\UsuarioMapper.cs",
+              "ToolTip": "C:\\Users\\Facu Torres\\Desktop\\Prog3\\Obligatorio\\ObligatorioDW\\DTOs\\Mappers\\UsuarioMapper.cs",
+              "RelativeToolTip": "DTOs\\Mappers\\UsuarioMapper.cs",
+              "ViewState": "AgIAAA0AAAAAAAAAAAAzwCMAAAAfAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-16T15:55:56.077Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 47,
+              "Title": "Categoria.cs",
+              "DocumentMoniker": "C:\\Users\\Facu Torres\\Desktop\\Prog3\\Obligatorio\\ObligatorioDW\\ObligatorioDW\\Entidades\\Categoria.cs",
+              "RelativeDocumentMoniker": "ObligatorioDW\\Entidades\\Categoria.cs",
+              "ToolTip": "C:\\Users\\Facu Torres\\Desktop\\Prog3\\Obligatorio\\ObligatorioDW\\ObligatorioDW\\Entidades\\Categoria.cs",
+              "RelativeToolTip": "ObligatorioDW\\Entidades\\Categoria.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-05T14:39:09.776Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 33,
+              "Title": "CategoriaMapper.cs",
+              "DocumentMoniker": "C:\\Users\\Facu Torres\\Desktop\\Prog3\\Obligatorio\\ObligatorioDW\\DTOs\\Mappers\\CategoriaMapper.cs",
+              "RelativeDocumentMoniker": "DTOs\\Mappers\\CategoriaMapper.cs",
+              "ToolTip": "C:\\Users\\Facu Torres\\Desktop\\Prog3\\Obligatorio\\ObligatorioDW\\DTOs\\Mappers\\CategoriaMapper.cs",
+              "RelativeToolTip": "DTOs\\Mappers\\CategoriaMapper.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAABUAAAAjAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-10T13:35:56.451Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 35,
+              "Title": "Usuario.cs",
+              "DocumentMoniker": "C:\\Users\\Facu Torres\\Desktop\\Prog3\\Obligatorio\\ObligatorioDW\\ObligatorioDW\\Entidades\\Usuario.cs",
+              "RelativeDocumentMoniker": "ObligatorioDW\\Entidades\\Usuario.cs",
+              "ToolTip": "C:\\Users\\Facu Torres\\Desktop\\Prog3\\Obligatorio\\ObligatorioDW\\ObligatorioDW\\Entidades\\Usuario.cs",
+              "RelativeToolTip": "ObligatorioDW\\Entidades\\Usuario.cs",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAAAB0AAABVAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-05T14:12:35.2Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 32,
+              "Title": "IRepositorio.cs",
+              "DocumentMoniker": "C:\\Users\\Facu Torres\\Desktop\\Prog3\\Obligatorio\\ObligatorioDW\\ObligatorioDW\\InterfacesDeRepositorio\\IRepositorio.cs",
+              "RelativeDocumentMoniker": "ObligatorioDW\\InterfacesDeRepositorio\\IRepositorio.cs",
+              "ToolTip": "C:\\Users\\Facu Torres\\Desktop\\Prog3\\Obligatorio\\ObligatorioDW\\ObligatorioDW\\InterfacesDeRepositorio\\IRepositorio.cs",
+              "RelativeToolTip": "ObligatorioDW\\InterfacesDeRepositorio\\IRepositorio.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAAAwAAAAjAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-10T13:29:33.856Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "IRepositorioCategoria.cs",
+              "DocumentMoniker": "C:\\Users\\Facu Torres\\Desktop\\Prog3\\Obligatorio\\ObligatorioDW\\ObligatorioDW\\InterfacesDeRepositorio\\IRepositorioCategoria.cs",
+              "RelativeDocumentMoniker": "ObligatorioDW\\InterfacesDeRepositorio\\IRepositorioCategoria.cs",
+              "ToolTip": "C:\\Users\\Facu Torres\\Desktop\\Prog3\\Obligatorio\\ObligatorioDW\\ObligatorioDW\\InterfacesDeRepositorio\\IRepositorioCategoria.cs",
+              "RelativeToolTip": "ObligatorioDW\\InterfacesDeRepositorio\\IRepositorioCategoria.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-10T13:32:09.1Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "IObtenerTodas.cs",
+              "DocumentMoniker": "C:\\Users\\Facu Torres\\Desktop\\Prog3\\Obligatorio\\ObligatorioDW\\LogicaDeAplicacion\\InterfacesDeCasoDeUso\\Categorias\\IObtenerTodas.cs",
+              "RelativeDocumentMoniker": "LogicaDeAplicacion\\InterfacesDeCasoDeUso\\Categorias\\IObtenerTodas.cs",
+              "ToolTip": "C:\\Users\\Facu Torres\\Desktop\\Prog3\\Obligatorio\\ObligatorioDW\\LogicaDeAplicacion\\InterfacesDeCasoDeUso\\Categorias\\IObtenerTodas.cs",
+              "RelativeToolTip": "LogicaDeAplicacion\\InterfacesDeCasoDeUso\\Categorias\\IObtenerTodas.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAiAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-10T13:35:01.505Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 43,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\Facu Torres\\Desktop\\Prog3\\Obligatorio\\ObligatorioDW\\Presentacion\\Views\\Categoria\\Index.cshtml",
+              "RelativeDocumentMoniker": "Presentacion\\Views\\Categoria\\Index.cshtml",
+              "ToolTip": "C:\\Users\\Facu Torres\\Desktop\\Prog3\\Obligatorio\\ObligatorioDW\\Presentacion\\Views\\Categoria\\Index.cshtml",
+              "RelativeToolTip": "Presentacion\\Views\\Categoria\\Index.cshtml",
+              "ViewState": "AgIAABUAAAAAAAAAAAAmwAcAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-09-10T13:18:22.75Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 44,
+              "Title": "CategoriaController.cs",
+              "DocumentMoniker": "C:\\Users\\Facu Torres\\Desktop\\Prog3\\Obligatorio\\ObligatorioDW\\Presentacion\\Controllers\\CategoriaController.cs",
+              "RelativeDocumentMoniker": "Presentacion\\Controllers\\CategoriaController.cs",
+              "ToolTip": "C:\\Users\\Facu Torres\\Desktop\\Prog3\\Obligatorio\\ObligatorioDW\\Presentacion\\Controllers\\CategoriaController.cs",
+              "RelativeToolTip": "Presentacion\\Controllers\\CategoriaController.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAABcAAAAxAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-10T13:17:09.552Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 38,
+              "Title": "CategoriaDTO.cs",
+              "DocumentMoniker": "C:\\Users\\Facu Torres\\Desktop\\Prog3\\Obligatorio\\ObligatorioDW\\DTOs\\DTOs\\CategoriaDTO.cs",
+              "RelativeDocumentMoniker": "DTOs\\DTOs\\CategoriaDTO.cs",
+              "ToolTip": "C:\\Users\\Facu Torres\\Desktop\\Prog3\\Obligatorio\\ObligatorioDW\\DTOs\\DTOs\\CategoriaDTO.cs",
+              "RelativeToolTip": "DTOs\\DTOs\\CategoriaDTO.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-10T13:35:46.013Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
+              "Title": "RepositorioCategoria.cs",
+              "DocumentMoniker": "C:\\Users\\Facu Torres\\Desktop\\Prog3\\Obligatorio\\ObligatorioDW\\LogicaAccesoDato\\EF\\Repositorios\\RepositorioCategoria.cs",
+              "RelativeDocumentMoniker": "LogicaAccesoDato\\EF\\Repositorios\\RepositorioCategoria.cs",
+              "ToolTip": "C:\\Users\\Facu Torres\\Desktop\\Prog3\\Obligatorio\\ObligatorioDW\\LogicaAccesoDato\\EF\\Repositorios\\RepositorioCategoria.cs",
+              "RelativeToolTip": "LogicaAccesoDato\\EF\\Repositorios\\RepositorioCategoria.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABgAAAAwAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-10T13:22:17.476Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 48,
+              "Title": "dbo.Categorias.sql",
+              "DocumentMoniker": "ViewDataWindow_MSSQL__/_localdb__MSSQLLocalDB/Lectura2026/True/SqlTable/dbo.Categorias.sql",
+              "ToolTip": "ViewDataWindow_MSSQL__/_localdb__MSSQLLocalDB/Lectura2026/True/SqlTable/dbo.Categorias.sql",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000826|",
+              "WhenOpened": "2026-09-10T13:27:41.406Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 49,
+              "Title": "ObligatorioContext.cs",
+              "DocumentMoniker": "C:\\Users\\Facu Torres\\Desktop\\Prog3\\Obligatorio\\ObligatorioDW\\LogicaAccesoDatos\\EF\\ObligatorioContext.cs",
+              "RelativeDocumentMoniker": "LogicaAccesoDatos\\EF\\ObligatorioContext.cs",
+              "ToolTip": "C:\\Users\\Facu Torres\\Desktop\\Prog3\\Obligatorio\\ObligatorioDW\\LogicaAccesoDatos\\EF\\ObligatorioContext.cs",
+              "RelativeToolTip": "LogicaAccesoDatos\\EF\\ObligatorioContext.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABgAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-10T12:15:10.031Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 52,
+              "Title": "ObligatorioDW.csproj",
+              "DocumentMoniker": "C:\\Users\\Facu Torres\\Desktop\\Prog3\\Obligatorio\\ObligatorioDW\\ObligatorioDW\\ObligatorioDW.csproj",
+              "RelativeDocumentMoniker": "ObligatorioDW\\ObligatorioDW.csproj",
+              "ToolTip": "C:\\Users\\Facu Torres\\Desktop\\Prog3\\Obligatorio\\ObligatorioDW\\ObligatorioDW\\ObligatorioDW.csproj",
+              "RelativeToolTip": "ObligatorioDW\\ObligatorioDW.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2026-09-07T16:20:36.958Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 53,
+              "Title": "Opcion.cs",
+              "DocumentMoniker": "C:\\Users\\Facu Torres\\Desktop\\Prog3\\Obligatorio\\ObligatorioDW\\ObligatorioDW\\Entidades\\Opcion.cs",
+              "RelativeDocumentMoniker": "ObligatorioDW\\Entidades\\Opcion.cs",
+              "ToolTip": "C:\\Users\\Facu Torres\\Desktop\\Prog3\\Obligatorio\\ObligatorioDW\\ObligatorioDW\\Entidades\\Opcion.cs",
+              "RelativeToolTip": "ObligatorioDW\\Entidades\\Opcion.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAA1AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-07T16:22:12.014Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 54,
+              "Title": "CapituloFinal.cs",
+              "DocumentMoniker": "C:\\Users\\Facu Torres\\Desktop\\Prog3\\Obligatorio\\ObligatorioDW\\ObligatorioDW\\Entidades\\CapituloFinal.cs",
+              "RelativeDocumentMoniker": "ObligatorioDW\\Entidades\\CapituloFinal.cs",
+              "ToolTip": "C:\\Users\\Facu Torres\\Desktop\\Prog3\\Obligatorio\\ObligatorioDW\\ObligatorioDW\\Entidades\\CapituloFinal.cs",
+              "RelativeToolTip": "ObligatorioDW\\Entidades\\CapituloFinal.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAvAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-07T16:21:47.04Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 51,
+              "Title": "IValidable.cs",
+              "DocumentMoniker": "C:\\Users\\Facu Torres\\Desktop\\Prog3\\Obligatorio\\ObligatorioDW\\ObligatorioDW\\InterfacesDelDominio\\IValidable.cs",
+              "RelativeDocumentMoniker": "ObligatorioDW\\InterfacesDelDominio\\IValidable.cs",
+              "ToolTip": "C:\\Users\\Facu Torres\\Desktop\\Prog3\\Obligatorio\\ObligatorioDW\\ObligatorioDW\\InterfacesDelDominio\\IValidable.cs",
+              "RelativeToolTip": "ObligatorioDW\\InterfacesDelDominio\\IValidable.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAeAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-07T16:23:25.356Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 45,
+              "Title": "Estado.cs",
+              "DocumentMoniker": "C:\\Users\\Facu Torres\\Desktop\\Prog3\\Obligatorio\\ObligatorioDW\\ObligatorioDW\\Enums\\Estado.cs",
+              "RelativeDocumentMoniker": "ObligatorioDW\\Enums\\Estado.cs",
+              "ToolTip": "C:\\Users\\Facu Torres\\Desktop\\Prog3\\Obligatorio\\ObligatorioDW\\ObligatorioDW\\Enums\\Estado.cs",
+              "RelativeToolTip": "ObligatorioDW\\Enums\\Estado.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAARAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-07T16:31:43.329Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 50,
+              "Title": "UsuarioException.cs",
+              "DocumentMoniker": "C:\\Users\\Facu Torres\\Desktop\\Prog3\\Obligatorio\\ObligatorioDW\\ObligatorioDW\\Excepciones\\UsuarioException.cs",
+              "RelativeDocumentMoniker": "ObligatorioDW\\Excepciones\\UsuarioException.cs",
+              "ToolTip": "C:\\Users\\Facu Torres\\Desktop\\Prog3\\Obligatorio\\ObligatorioDW\\ObligatorioDW\\Excepciones\\UsuarioException.cs",
+              "RelativeToolTip": "ObligatorioDW\\Excepciones\\UsuarioException.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAABuAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-07T16:39:59.11Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 55,
+              "Title": "CapituloIntermedio.cs",
+              "DocumentMoniker": "C:\\Users\\Facu Torres\\Desktop\\Prog3\\Obligatorio\\ObligatorioDW\\ObligatorioDW\\Entidades\\CapituloIntermedio.cs",
+              "RelativeDocumentMoniker": "ObligatorioDW\\Entidades\\CapituloIntermedio.cs",
+              "ToolTip": "C:\\Users\\Facu Torres\\Desktop\\Prog3\\Obligatorio\\ObligatorioDW\\ObligatorioDW\\Entidades\\CapituloIntermedio.cs",
+              "RelativeToolTip": "ObligatorioDW\\Entidades\\CapituloIntermedio.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-07T16:21:26.515Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 34,
+              "Title": "Capitulo.cs",
+              "DocumentMoniker": "C:\\Users\\Facu Torres\\Desktop\\Prog3\\Obligatorio\\ObligatorioDW\\ObligatorioDW\\Entidades\\Capitulo.cs",
+              "RelativeDocumentMoniker": "ObligatorioDW\\Entidades\\Capitulo.cs",
+              "ToolTip": "C:\\Users\\Facu Torres\\Desktop\\Prog3\\Obligatorio\\ObligatorioDW\\ObligatorioDW\\Entidades\\Capitulo.cs",
+              "RelativeToolTip": "ObligatorioDW\\Entidades\\Capitulo.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-05T14:39:25.089Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "Historia.cs",
+              "DocumentMoniker": "C:\\Users\\Facu Torres\\Desktop\\Prog3\\Obligatorio\\ObligatorioDW\\ObligatorioDW\\Entidades\\Historia.cs",
+              "RelativeDocumentMoniker": "ObligatorioDW\\Entidades\\Historia.cs",
+              "ToolTip": "C:\\Users\\Facu Torres\\Desktop\\Prog3\\Obligatorio\\ObligatorioDW\\ObligatorioDW\\Entidades\\Historia.cs",
+              "RelativeToolTip": "ObligatorioDW\\Entidades\\Historia.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-05T14:33:32.441Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

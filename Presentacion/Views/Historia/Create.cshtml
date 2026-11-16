@@ -1,0 +1,67 @@
+@model DTOs.DTOs.HistoriaDTO
+
+@{
+    ViewData["Title"] = "Crear Historia";
+}
+
+<h1>Crear Historia</h1>
+
+<form asp-action="Create" method="post">
+    
+
+    
+    <div asp-validation-summary="All" class="text-danger"></div>
+    
+    
+    <form asp-action="Create" method="post">
+
+        <div class="mb-3">
+            <label asp-for="Titulo" class="form-label">Título de la historia</label>
+            <input asp-for="Titulo" class="form-control" required />
+        </div>
+
+        <div class="mb-3">
+            <label asp-for="Sinopsis" class="form-label">Sinopsis</label>
+            <textarea asp-for="Sinopsis" class="form-control" rows="4" required></textarea>
+        </div>
+
+        
+        
+        <div class="mb-3">
+            <label class="form-label">Categorías</label>
+
+            @foreach (var categoria in ViewBag.Categorias)
+            {
+                <div class="form-check">
+                    <input class="form-check-input"
+                           type="checkbox"
+                           name="categoriasSeleccionadas"
+                           value="@categoria.Id" />
+
+                    <label class="form-check-label">
+                        @categoria.Nombre
+                    </label>
+                </div>
+            }
+        </div>
+
+        
+        
+        <h3>Capítulo inicial</h3>
+
+        <div class="mb-3">
+            <label asp-for="CapituloInicial.Titulo" class="form-label">Título del capítulo</label>
+            <input asp-for="CapituloInicial.Titulo" class="form-control" required />
+        </div>
+
+        <div class="mb-3">
+            <label asp-for="CapituloInicial.Texto" class="form-label">Texto del capítulo</label>
+            <textarea asp-for="CapituloInicial.Texto" class="form-control" rows="5" required></textarea>
+        </div>
+
+        <button type="submit" class="btn btn-primary">Crear</button>
+        <a asp-action="Index" asp-controller="Historia" class="btn btn-secondary ms-2">Volver</a>
+
+    </form>
+
+    </form>

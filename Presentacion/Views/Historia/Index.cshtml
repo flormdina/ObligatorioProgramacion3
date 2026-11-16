@@ -1,0 +1,62 @@
+@model IEnumerable<DTOs.DTOs.HistoriaDTO>
+
+@{
+    ViewData["Title"] = "Historias";
+}
+
+<h1>Listado de historias</h1>
+
+<a asp-controller="Historia"
+   asp-action="Create"
+   class="btn btn-primary mb-3">
+    Crear nueva historia
+</a>
+
+<table class="table table-striped">
+    <thead>
+    <tr>
+        <th>Título</th>
+        <th>Sinopsis</th>
+        <th>Estado</th>
+        <th>Categorías</th>
+        <th>Acciones</th>
+    </tr>
+    </thead>
+
+    <tbody>
+    @foreach (var historia in Model)
+    {
+        <tr>
+            <td>@historia.Titulo</td>
+            <td>@historia.Sinopsis</td>
+            <td>@historia.Estado</td>
+            <td>
+                <a asp-action="Edit"
+                   asp-route-id="@historia.Id"
+                   class="btn btn-warning">
+                    Editar
+                </a>
+                
+                <a asp-action="Delete"
+                   asp-route-id="@historia.Id"
+                   class="btn btn-danger">
+                    Eliminar
+                </a>
+                
+                <a asp-action="AgregarCapitulo"
+                   asp-route-id="@historia.Id"
+                   class="btn btn-success">
+                    Agregar capítulo
+                </a>
+            </td>
+            
+            <td>
+                @foreach (var categoria in historia.Categorias)
+                {
+                    <span>@categoria.Nombre </span>
+                }
+            </td>
+        </tr>
+    }
+    </tbody>
+</table>

@@ -1,0 +1,34 @@
+@model IEnumerable<(string Historia, string Final, int Cantidad)>
+
+@{
+    ViewData["Title"] = "Finales más alcanzados";
+}
+
+<h2>Final más alcanzado por historia</h2>
+
+@if (!Model.Any())
+{
+    <p>Todavía no hay finales alcanzados.</p>
+}
+else
+{
+    <table class="table table-striped">
+        <thead>
+        <tr>
+            <th>Historia</th>
+            <th>Final más alcanzado</th>
+            <th>Cantidad</th>
+        </tr>
+        </thead>
+        <tbody>
+        @foreach (var item in Model)
+        {
+            <tr>
+                <td>@item.Historia</td>
+                <td>@item.Final</td>
+                <td>@item.Cantidad</td>
+            </tr>
+        }
+        </tbody>
+    </table>
+}
